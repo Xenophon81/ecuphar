@@ -24,6 +24,21 @@ html{
     object-fit: contain;
 }
 
+.page{
+    border: 1px solid purple;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    // https://dev.to/niorad/keeping-the-footer-at-the-bottom-with-css-grid-15mf
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+    border: 10px solid green;
+}
+
 body{
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     color: $softblack;
@@ -43,4 +58,42 @@ a.btn-primary{
     border-radius: 2rem;
     font-size: 0.9rem;
     margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.image-grid{
+    // display: flex;
+    // flex-wrap:  nowrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    border: 1px solid black;
+
+    & > img{
+        aspect-ratio: 1 / 2;
+        height: auto;
+        display: block;
+        border: 1px dashed blue;
+    }
+}
+
+footer{
+    .address > *{
+        margin-right: 1rem;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+    .social{
+        font-size: 1.5rem;
+        // margin-right: 1.7rem;
+        // &:last-child{
+        //     margin-right: 0;
+        // }
+    }
 }
