@@ -22,6 +22,10 @@ html{
     height: 100%;
     border: 1px solid red;
     object-fit: contain;
+
+    @media screen and (max-width: 300px){
+        background-image: none;
+    }
 }
 
 .page{
