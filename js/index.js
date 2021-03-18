@@ -1,5 +1,6 @@
 
-console.log('works');
+
+
 
 //import './scss/_settings.scss';
 //import 'bootstrap'
@@ -8,3 +9,5 @@ console.log('works');
 // import '@fortawesome/fontawesome-free/css/all.css'
 
 import '../scss/index.scss';
+
+console.log('works');

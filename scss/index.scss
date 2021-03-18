@@ -2,7 +2,9 @@ $blue: rgb(14,23,80);
 $softblack: rgb(84,86,90);
 $grey: #EDEEEE;
 
+@import '../js/slick/slick.scss';
 @import 'bootstrap/bootstrap.scss';
+
 
 html{
     min-height: 100vh;
