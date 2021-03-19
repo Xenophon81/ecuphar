@@ -1,2 +1,0 @@
-# ecuphar
-landingpage for ecuphar
