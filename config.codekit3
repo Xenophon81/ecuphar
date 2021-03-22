@@ -356,28 +356,28 @@
 		"oAP": "/oud/slider.html",
 		"oF": 0
 		},
-	"/pdf/BE-Cookies policy_NL.pdf": {
+	"/pdf/Cookiebeleid_BENL.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/pdf/BE-Cookies policy_NL.pdf",
+		"oAP": "/pdf/Cookiebeleid_BENL.pdf",
 		"oF": 0
 		},
-	"/pdf/BE-Cookiespolicy_EN.pdf": {
+	"/pdf/Cookiebeleid_FR.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/pdf/BE-Cookiespolicy_EN.pdf",
+		"oAP": "/pdf/Cookiebeleid_FR.pdf",
 		"oF": 0
 		},
-	"/pdf/BE-Cookiespolicy_FR.pdf": {
+	"/pdf/Cookiebeleid_NLNL.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/pdf/BE-Cookiespolicy_FR.pdf",
+		"oAP": "/pdf/Cookiebeleid_NLNL.pdf",
 		"oF": 0
 		},
 	"/scss/_settings.scss": {
@@ -1573,7 +1573,7 @@
 		"oA": 0,
 		"oAP": "/css/index.css",
 		"oF": 2,
-		"oS": 1,
+		"oS": 3,
 		"sct": 0
 		}
 	},
