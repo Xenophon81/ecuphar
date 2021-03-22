@@ -160,17 +160,6 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
-	"/js/index-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/index-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/js/index.js": {
 		"bF": 0,
 		"ft": 64,
@@ -340,45 +329,18 @@
 		"oAP": "/nederland.html",
 		"oF": 0
 		},
-	"/oud/index-variant.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/oud/index-variant.html",
-		"oF": 0
-		},
-	"/oud/slider.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/oud/slider.html",
-		"oF": 0
-		},
-	"/pdf/Cookiebeleid_BENL.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/pdf/Cookiebeleid_BENL.pdf",
-		"oF": 0
-		},
-	"/pdf/Cookiebeleid_FR.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/pdf/Cookiebeleid_FR.pdf",
-		"oF": 0
-		},
-	"/pdf/Cookiebeleid_NLNL.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/pdf/Cookiebeleid_NLNL.pdf",
-		"oF": 0
+	"/scss/_images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_images.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
 		},
 	"/scss/_settings.scss": {
 		"aP": 0,
