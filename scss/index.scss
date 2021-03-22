@@ -2,7 +2,35 @@ $blue: rgb(14, 23, 80);
 $softblack: rgb(84, 86, 90);
 $grey: #edeeee;
 
-@import "../js/slick/slick.scss";
+@font-face {
+  font-family: "Calibri-Light";
+  src: url("../fonts/Calibri-Light.woff2") format("woff2"),
+    url("../fonts/Calibri-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Calibri-Regular";
+  src: url("../fonts/Calibri.woff2") format("woff2"),
+    url("../fonts/Calibri.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.btn,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Calibri-Regular";
+}
+
+//@import "../js/slick/slick.scss";
 @import "bootstrap/bootstrap.scss";
 
 .language-picker {
@@ -133,6 +161,7 @@ main {
 
 body {
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-family: "Calibri-Light";
   color: $softblack;
   background-color: transparent;
 }
@@ -221,6 +250,11 @@ footer {
   main {
     position: relative;
     top: -1rem;
+  }
+
+  /* bah dirty */
+  .static-image-grid img {
+    flex: 0 0 calc(50% - 0.5rem);
   }
 }
 
