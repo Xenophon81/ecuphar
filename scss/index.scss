@@ -280,3 +280,26 @@ footer {
 .slick-slide > div {
   padding: 0 50px !important;
 }
+
+/* Added */
+
+.static-image-grid {
+  .items {
+    width: 90%;
+    margin: 0px auto;
+    //margin-top: 100px;
+  }
+
+  .slick-slide {
+    margin: 10px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+    border: 0px solid #fff;
+  }
+
+  .slick-arrow {
+    z-index: 10000;
+  }
+}
