@@ -1,0 +1,44 @@
+// smaller then 1200px
+@media screen and (max-width: 1200px) {
+  .bg-image {
+    display: none;
+  }
+
+  .grey-background {
+    visibility: visible;
+  }
+}
+
+// smaller then  767px
+@media screen and (max-width: 767px) {
+  footer .parent {
+    //border: 4px dashed red;
+    display: block !important;
+    text-align: center;
+  }
+  footer .parent .right {
+    text-align: center;
+  }
+  main {
+    position: relative;
+    top: -1rem;
+  }
+
+  /* bah dirty */
+
+  .page {
+    display: block; // unset grid for too wide slick slider: https://stackoverflow.com/questions/45735511/slick-slider-gets-wrong-width
+  }
+}
+
+// bigger then 1199
+@media screen and (min-width: 1199px) {
+  div.cat-smaller {
+    display: none;
+  }
+}
+
+div[class^="col"],
+div[class*=" col"] {
+  border: 1px solid red;
+}

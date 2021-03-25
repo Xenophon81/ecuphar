@@ -1,0 +1,19 @@
+footer {
+  border-top: 1px solid black;
+  padding-top: 0.7rem;
+
+  .copyright > * {
+    margin-right: 1.8rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .social {
+    text-align: right;
+    margin-left: auto;
+    font-size: 1.5rem;
+    // display: flex;
+    // align-content: space-around;
+  }
+}

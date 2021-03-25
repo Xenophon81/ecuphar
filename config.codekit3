@@ -760,14 +760,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/index-slider.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index-slider.html",
-		"oF": 0
-		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -944,19 +936,6 @@
 		"oA": 0,
 		"oAP": "/nederland.html",
 		"oF": 0
-		},
-	"/scss/_settings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_settings.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
 		},
 	"/scss/bootstrap/_alert.scss": {
 		"aP": 0,
@@ -2139,6 +2118,71 @@
 		"oAP": "/css/index.css",
 		"oF": 2,
 		"oS": 3,
+		"sct": 0
+		},
+	"/scss/partials/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/partials/_mobile.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_mobile.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/partials/_settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_settings.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/partials/_slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_slick.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/partials/language.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/language.css",
+		"oF": 0,
+		"oS": 0,
 		"sct": 0
 		}
 	},

@@ -1,70 +1,6 @@
-$blue: rgb(14, 23, 80);
-$softblack: rgb(84, 86, 90);
-$grey: #edeeee;
-
-@font-face {
-  font-family: "Calibri-Light";
-  src: url("../fonts/Calibri-Light.woff2") format("woff2"),
-    url("../fonts/Calibri-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: block; /* No longer causing FOUT */
-}
-
-@font-face {
-  font-family: "Calibri-Regular";
-  src: url("../fonts/Calibri.woff2") format("woff2"),
-    url("../fonts/Calibri.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block; /* No longer causing FOUT */
-}
-
-.btn,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Calibri-Regular";
-}
-
-//@import "../js/slick/slick.scss";
-@import "bootstrap/bootstrap.scss";
-
-.language-picker {
-  color: white;
-  font-size: 0.9rem;
-  padding: 0.5rem 0;
-  //border: 1px solid white;
-
-  .item.active {
-    a > * {
-      opacity: 1;
-    }
-  }
-
-  .flag-icon {
-    transform: scale(0.8);
-    opacity: 0.5;
-    transition: opacity 1s ease;
-  }
-
-  & > div:first-child {
-    margin-right: 1rem;
-  }
-  a {
-    color: rgb(185, 185, 185);
-    transition: color 1s ease;
-    &:hover {
-      color: $grey;
-    }
-    &:hover > span.flag-icon {
-      opacity: 1;
-    }
-  }
-}
+@import "partials/settings";
+@import "bootstrap/bootstrap";
+@import "partials/language";
 
 html {
   min-height: 100vh;
@@ -76,16 +12,12 @@ html {
   background-image: url("../img/DA-met-kat.png");
   background-size: cover;
   background-position: center right;
-  // background-repeat: no-repeat;
   position: fixed;
   right: 0;
   bottom: 0;
-
   width: 100%;
   height: 100%;
-  //border: 1px solid red;
   object-fit: contain;
-
   @media screen and (max-width: 300px) {
     background-image: none;
   }
@@ -102,9 +34,9 @@ html {
 }
 
 .page {
-  //border: 1px solid purple;
+  border: 1px solid orange;
   min-height: 100%;
-  //display: grid; // breaks slick slider on very small screens
+  display: grid; // breaks slick slider on very small screens
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
   // https://dev.to/niorad/keeping-the-footer-at-the-bottom-with-css-grid-15mf
@@ -114,12 +46,6 @@ html {
 main {
   background-color: $grey;
   flex-grow: 1;
-  //border: 10px solid green;
-
-  // .col p {
-  //     width: 80ch;
-  //     border: 1px solid green;
-  //     }
 }
 
 body {
@@ -147,126 +73,6 @@ a.btn-primary {
   color: $softblack;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
-footer {
-  border-top: 1px solid black;
-  padding-top: 0.7rem;
-
-  .copyright > * {
-    margin-right: 1.8rem;
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-
-  .social {
-    text-align: right;
-    margin-left: auto;
-    font-size: 1.5rem;
-    // display: flex;
-    // align-content: space-around;
-  }
-}
-
-.slick-slider {
-  transform: scale(0.8);
-  border: dashed 1px purple;
-}
-
-// smaller then 1200px
-@media screen and (max-width: 1200px) {
-  .bg-image {
-    display: none;
-  }
-
-  .grey-background {
-    visibility: visible;
-  }
-}
-
-// smaller then  767px
-@media screen and (max-width: 767px) {
-  footer .parent {
-    //border: 4px dashed red;
-    display: block !important;
-    text-align: center;
-  }
-  footer .parent .right {
-    text-align: center;
-  }
-  main {
-    position: relative;
-    top: -1rem;
-  }
-
-  /* bah dirty */
-
-  .page {
-    display: block; // unset grid for too wide slick slider: https://stackoverflow.com/questions/45735511/slick-slider-gets-wrong-width
-  }
-}
-
-// bigger then 1199
-@media screen and (min-width: 1199px) {
-  div.cat-smaller {
-    display: none;
-  }
-}
-
-.slick-arrow,
-.slick-next:before,
-.slick-prev:before {
-  color: $blue;
-  transform: scale(1.5);
-}
-
-.slick-prev {
-  left: -75px;
-}
-
-.slick-next {
-  right: -75px;
-}
-
-div[class^="col"],
-div[class*=" col"] {
-  border: 1px solid red;
-}
-
-.slick-list {
-  margin: 0 -50px !important;
-}
-.slick-slide > div {
-  padding: 0 50px !important;
-}
-
-/* Added */
-
-.static-image-grid {
-  .items {
-    //width: 90%;
-    //margin: 0px auto;
-    //margin-top: 100px;
-    //overflow: hidden;
-  }
-
-  .slick-slide {
-    margin: 10px;
-  }
-
-  .slick-slide img {
-    width: 100%;
-    border: 0px solid #fff;
-  }
-
-  .slick-arrow {
-    z-index: 10000;
-  }
-}
-
-body {
-  padding: 1rem;
-}
+@import "partials/slick";
+@import "partials/footer";
+@import "partials/mobile";

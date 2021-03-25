@@ -1,0 +1,35 @@
+$blue: rgb(14, 23, 80);
+$softblack: rgb(84, 86, 90);
+$grey: #edeeee;
+
+@font-face {
+  font-family: "Calibri-Light";
+  src: url("../fonts/Calibri-Light.woff2") format("woff2"),
+    url("../fonts/Calibri-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: block; /* No longer causing FOUT */
+}
+
+@font-face {
+  font-family: "Calibri-Regular";
+  src: url("../fonts/Calibri.woff2") format("woff2"),
+    url("../fonts/Calibri.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; /* No longer causing FOUT */
+}
+
+.btn,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Calibri-Regular";
+}
+
+a:hover {
+  text-decoration: none;
+}

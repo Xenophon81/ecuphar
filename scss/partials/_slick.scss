@@ -1,0 +1,43 @@
+.slick-slider {
+  transform: scale(0.8);
+  border: dashed 1px purple;
+}
+
+.slick-arrow,
+.slick-next:before,
+.slick-prev:before {
+  color: $blue;
+  transform: scale(1.5);
+}
+
+.slick-prev {
+  left: -75px;
+}
+
+.slick-next {
+  right: -75px;
+}
+
+.slick-list {
+  margin: 0 -50px !important;
+}
+.slick-slide > div {
+  padding: 0 50px !important;
+}
+
+/* Added */
+
+.static-image-grid {
+  .slick-slide {
+    margin: 10px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+    border: 0px solid #fff;
+  }
+
+  .slick-arrow {
+    z-index: 10000;
+  }
+}
