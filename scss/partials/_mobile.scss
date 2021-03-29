@@ -1,5 +1,5 @@
-// smaller then 1200px
 @media screen and (max-width: 1200px) {
+  // smaller then 1200px
   .bg-image {
     display: none;
   }
@@ -9,8 +9,8 @@
   }
 }
 
-// smaller then  767px
 @media screen and (max-width: 767px) {
+  // smaller then  767px
   footer .parent {
     //border: 4px dashed red;
     display: block !important;
@@ -23,9 +23,6 @@
     position: relative;
     top: -1rem;
   }
-
-  /* bah dirty */
-
   .page {
     display: block; // unset grid for too wide slick slider: https://stackoverflow.com/questions/45735511/slick-slider-gets-wrong-width
   }
@@ -38,7 +35,7 @@
   }
 }
 
-div[class^="col"],
-div[class*=" col"] {
-  border: 1px solid red;
-}
+// div[class^="col"],
+// div[class*=" col"] {
+//   border: 1px solid red;
+// }

@@ -93,9 +93,20 @@
 		"oAP": "/ecupharBE/frans.html",
 		"oF": 0
 		},
+	"/ecupharBE/img/AdobeStock_65766503.jpeg": {
+		"ft": 16384,
+		"iS": 357387,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ecupharBE/img/AdobeStock_65766503.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/ecupharBE/img/DA-met-kat-smaller.png": {
 		"ft": 32768,
-		"iS": 446704,
+		"iS": 179273,
 		"oA": 0,
 		"oAP": "/ecupharBE/img/DA-met-kat-smaller.png",
 		"oF": 0,
@@ -136,6 +147,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/ecupharBE/img/kat.jpg": {
+		"ft": 16384,
+		"iS": 12129223,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ecupharBE/img/kat.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/ecupharBE/img/koe-small.jpg": {
 		"ft": 16384,
 		"iS": 56164,
@@ -147,12 +169,34 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/ecupharBE/img/koe.jpeg": {
+		"ft": 16384,
+		"iS": 7492034,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ecupharBE/img/koe.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/ecupharBE/img/paard-small.jpg": {
 		"ft": 16384,
 		"iS": 51037,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/ecupharBE/img/paard-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ecupharBE/img/paard.jpg": {
+		"ft": 16384,
+		"iS": 9495231,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ecupharBE/img/paard.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -377,9 +421,20 @@
 		"oAP": "/ecupharNL/fonts/Calibri.woff2",
 		"oF": 0
 		},
+	"/ecupharNL/img/AdobeStock_65766503.jpeg": {
+		"ft": 16384,
+		"iS": 357387,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ecupharNL/img/AdobeStock_65766503.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/ecupharNL/img/DA-met-kat-smaller.png": {
 		"ft": 32768,
-		"iS": 446704,
+		"iS": 179273,
 		"oA": 0,
 		"oAP": "/ecupharNL/img/DA-met-kat-smaller.png",
 		"oF": 0,
@@ -420,6 +475,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/ecupharNL/img/kat.jpg": {
+		"ft": 16384,
+		"iS": 12129223,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ecupharNL/img/kat.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/ecupharNL/img/koe-small.jpg": {
 		"ft": 16384,
 		"iS": 56164,
@@ -431,12 +497,34 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/ecupharNL/img/koe.jpeg": {
+		"ft": 16384,
+		"iS": 7492034,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ecupharNL/img/koe.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/ecupharNL/img/paard-small.jpg": {
 		"ft": 16384,
 		"iS": 51037,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/ecupharNL/img/paard-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ecupharNL/img/paard.jpg": {
+		"ft": 16384,
+		"iS": 9495231,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ecupharNL/img/paard.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -668,8 +756,8 @@
 		"oA": 0,
 		"oAP": "/img/DA-met-kat-smaller.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -713,7 +801,7 @@
 		"oAP": "/img/kat.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/koe-small.jpg": {
@@ -757,7 +845,7 @@
 		"oAP": "/img/paard.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/index.html": {
@@ -2108,7 +2196,7 @@
 		"sct": 0
 		},
 	"/scss/index.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
